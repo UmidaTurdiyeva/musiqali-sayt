@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, blueviolet, black,rgb(181, 99, 181),black);
+    padding: 10px;
+}
+.img{
+    width: 50%;
+    /* background-image: linear-gradient(to bottom right, blueviolet, black, black, black,violet); */
+}
+.mp3{
+    width: 10%;
+    height: 100%;
+}
+.audio{
+    width: 40%;
+    height: 100%;
+}
+.rotate{
+    width: 760px;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alsu img{
+    width: 670px;
+    border-radius: 50%;
+    transition: transform 100s;
+}
+.alsu img:hover{
+    transform: rotate(3600deg);
+}
+.alsu{
+    position: relative;
+}
+.center img{
+    width: 200px;
+}
+.center{
+    /* alsuni rasmini p'rtada joylashtirish uchun  */
+    position: absolute;
+    top: 235px;
+    left: 235px;
+    border-radius: 50%;
+}
+.tochka{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    top: 90px;
+    left: 90px;
+}
+audio{
+    width: 100%;
+}
+ul li{
+    list-style-type: none;
+    line-height: 520%;
+}
+span{
+    color: white;
+    font-size: 25px;
+}
+
